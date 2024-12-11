@@ -1,13 +1,20 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/Mythonos/genji/88eeb46e922ec977b2489de4a2561a33f5136e5a/manifest.json",
+  "id": "https://raw.githubusercontent.com/Mythonos/genji/main/manifest.json",
   "type": "Manifest",
   "label": {
     "en": ["Image Manifest for Genji Image"]
   },
+  "thumbnail": [
+    {
+      "id": "https://raw.githubusercontent.com/Mythonos/genji/main/image1.jpg",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
   "items": [
     {
-      "id": "https://raw.githubusercontent.com/Mythonos/genji/88eeb46e922ec977b2489de4a2561a33f5136e5a/canvas/image1",
+      "id": "https://raw.githubusercontent.com/Mythonos/genji/main/canvas/image1",
       "type": "Canvas",
       "label": {
         "en": ["Image Canvas"]
@@ -16,21 +23,21 @@
       "height": 1000,  
       "items": [
         {
-          "id": "https://raw.githubusercontent.com/Mythonos/genji/88eeb46e922ec977b2489de4a2561a33f5136e5a/annotation/page",
+          "id": "https://raw.githubusercontent.com/Mythonos/genji/main/annotation/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://raw.githubusercontent.com/Mythonos/genji/88eeb46e922ec977b2489de4a2561a33f5136e5a/annotation/image1",
+              "id": "https://raw.githubusercontent.com/Mythonos/genji/main/annotation/image1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://raw.githubusercontent.com/Mythonos/genji/88eeb46e922ec977b2489de4a2561a33f5136e5a/image1.jpg",
+                "id": "https://raw.githubusercontent.com/Mythonos/genji/main/image1.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1000,  
                 "height": 1000  
               },
-              "target": "https://raw.githubusercontent.com/Mythonos/genji/88eeb46e922ec977b2489de4a2561a33f5136e5a/canvas/image1"
+              "target": "https://raw.githubusercontent.com/Mythonos/genji/main/canvas/image1"
             }
           ]
         }
